@@ -40,5 +40,7 @@ for i in range(len(product_cards)):
     dataDict["Descriptions"].append(desc)
 
 
+df = pd.DataFrame(dataDict)
 
+df.to_excel("techlanAppleLaptops.xlsx")
 # print(dataDict)
