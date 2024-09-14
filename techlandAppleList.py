@@ -41,4 +41,4 @@ for i in range(len(product_cards)):
 
 
 
-print(dataDict)
+# print(dataDict)
